@@ -1,0 +1,702 @@
+/*index*/
+.rollImage
+{
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.rollImage,.imgCon,.imgCon>img
+{
+    height: 403px;
+}
+.rollImage,.imgCon{
+    position: relative;
+}
+.imgCon>img {
+    position: absolute;
+    left:-330px;
+    top:0;
+    opacity: 0;
+    transition: all 1s;
+}
+.imgCon>img:first-of-type
+{
+    opacity: 1;
+}
+.leftBn
+{
+    display: none;
+    position: absolute;
+    top:171px;
+    left:270px;
+}
+.rightBn
+{
+    display: none;
+    position: absolute;
+    top:171px;
+    right: 270px;
+}
+.banner ul{
+    list-style: none;
+    position: absolute;
+    left: 597px;
+    bottom: 20px;
+}
+.banner ul li{
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    float: left;
+    margin-left: 5px;
+}
+.banner ul li:first-of-type
+{
+    background-color: rgba(255,255,255,1);
+}
+/*banner over*/
+
+
+/*newAdv start*/
+.newAdv{
+    margin-top: 20px;
+}
+.newAdv ul{
+    display: flex;
+    justify-content: space-between;
+}
+/*newAdv over*/
+
+
+/*solution start*/
+.solution{
+    height:98px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+.solution ul{
+    display: flex;
+}
+.solution ul li{
+    width: 200px;
+    height: 98px;
+    position: relative;
+}
+.solution ul a{
+    position: absolute;
+    left: 0;
+    top: 0;
+   transition: .3s;
+}
+.solution ul a:hover{
+    transition: .3s;
+    left: 0;
+    top: -98px;
+}
+.solution ul li i{
+    width: 1px;
+    height: 64px;
+    background: #dddddd;
+    position: absolute;
+    top:17px;
+}
+/*solution over*/
+
+
+/*goods start*/
+/*choice start*/
+.index_floor{
+    margin-top: 20px;
+    overflow: hidden;
+    border-bottom: 1px #d71635 solid;
+}
+.index_floor h3{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 34px;
+    display: inline-block;
+    width:200px;
+}
+.index_floor h3 em{
+    width: 6px;
+    height: 23px;
+    margin-top: 5px;
+    float: left;
+    background: red;
+    margin-right: 7px;
+}
+.choice_nav{
+    float: left;
+    display: inline;
+    font-size: 14px;
+    margin-left: 200px;
+    overflow: hidden;
+    line-height: 14px;
+}
+.choice_nav li{
+    float: left;
+    padding: 0 22px;
+    margin-top: 10px;
+    border-left: 1px solid #dddddd;
+    cursor: pointer;
+    display: inline;
+}
+.choice_nav li:first-child{
+    border-left: none;
+}
+.choice_nav li.active{
+    background: #d71635;
+    height: 34px;
+    line-height: 34px;
+    margin: 0;
+}
+.choice_content{
+    overflow: hidden;
+    display: none;
+}
+.fine div.active{
+	display: block;
+}
+.choice_content>a img{
+    float: left;
+}
+ .choice_list{
+    margin-left: 400px;
+    border: 1px solid #ddd;
+     border-left: none;
+    border-top: none;
+    height: 249px;
+    overflow: hidden;
+}
+ .choice_list li{
+    float: left;
+    width: 133px;
+    overflow: hidden;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    text-align: center;
+     padding: 28px 33px 0;
+     height: 221px;
+}
+ .choice_list li:last-child{
+     border-right: none;
+ }
+ .choice_list li p{
+     line-height: 16px;
+     height: 32px;
+     overflow: hidden;
+     margin-top: 13px;
+ }
+.choice_list li p:last-child{
+    margin-top: 10px;
+    height: 22px;
+    line-height: 22px;
+    color: #d71635;
+    text-align: center;
+}
+.choice_list li p:last-child{
+
+}
+.choice_content .choice_list li img{
+    width: 130px;
+    height: 130px;
+}
+
+
+.box{
+    overflow: hidden;
+}
+.floor_btn{
+    float: right;
+}
+.floor_btn li{
+    margin-top: 10px;
+    cursor: pointer;
+    float: left;
+    display: inline;
+    color: #000;
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    border-left: 1px solid #ddd;
+    padding: 0 8px;
+}
+.floor_btn li:first-child{
+    border: none;
+}
+.floor_banner{
+    height: 297px;
+    width: 400px;
+    overflow: hidden;
+    float: left;
+}
+.floor_list{
+    width: 800px;
+    height:297px;
+    float: left;
+}
+.floor_list li{
+    float: left;
+    width: 169px;
+    height: 146px;
+    overflow: hidden;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 2px 15px 0;
+    position: relative;
+    text-align: center;
+}
+.floor_list li img{
+    display: inline;
+    width: 85px;
+    height: 85px;
+    font-size: 0;
+    vertical-align: top;
+}
+.floor_list li p {
+    line-height: 16px;
+    height: 32px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2px;
+}
+.floor_list li p:last-child{
+    height: 16px;
+    line-height: 16px;
+    color: #d71635;
+    text-align: center;
+    margin-top: 3px;
+}
+.floor_list li p:last-child b,.choice_list li p b {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+.floor_list li p:last-child {
+    font-size: 16px;
+    margin-right: 3px;
+    display: inline-block;
+}
+.floor_list li p:last-child i,.choice_list li p i{
+    font-style: normal;
+    font-size: 16px;
+    margin-right: 3px;
+    display: inline-block;
+}
+.floor_list li p:last-child em ,.choice_list li p em{
+    margin-left: 2px;
+    font-size: 14px;
+    font-style: normal;
+
+}
+
+
+/*news start*/
+.news{
+    overflow: hidden;
+}
+.footer_news{
+    float: left;
+    width:598px;
+    height: 280px;
+    border: 1px #dddddd solid;
+}
+.news_btn{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 33px;
+    margin-top: 6px;
+    color: #01a0b3;
+    font-size: 14px;
+}
+.news_btn em{
+    background: #d71635;
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+    margin-right: 7px;
+    height: 14px;
+    width: 3px;
+}
+.news_content{
+    overflow: hidden;
+    padding-left: 43px;
+}
+.news_content ul{
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap ;
+}
+.news_content ul li{
+    list-style: disc;
+    list-style: inside;
+    width: 230px;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 50px;
+}
+.news_content a{
+    color: #666666;
+}
+.news_content a:hover{
+    color: red;
+}
+.footer_comment{
+    float: left;
+    width:599px;
+    height: 280px;
+    border: 1px #dddddd solid;
+    border-left: none;
+}
+.footer_comment dl{
+    display: flex;
+    border-bottom: 1px #dddddd dashed;
+    padding: 10px 0;
+}
+.footer_comment dt{
+    border: 1px solid #dddddd;
+}
+.footer_comment dl dd{
+    margin-left: 20px;
+}
+.footer_comment dl dd span{
+    line-height: 20px;
+    height: 20px;
+}
+.footer_comment dl dd p {
+    margin-top: 8px;
+}
+.footer_comment dl dd p a{
+    color: #01a1b3;
+}
+.comment_content{
+    overflow: auto;
+    height: 234px;
+    padding-left: 43px;
+}
+.footer_blogroll{
+    width: 1198px;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-top: none;
+    float: left;
+}
+.footer_blogroll>a{
+    display: inline-block;
+    width: 91px;
+    height: 36px;
+    line-height:36px;
+    float: left;
+    border-right: 1px solid #dddddd;
+}
+.footer_blogroll a i{
+    display: inline-block;
+    width: 20px;
+    height:21px;
+    float: left;
+    margin: 8px 5px 0 7px;
+    background: url("http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-blogroll.png");
+}
+.footer_blogroll ul{
+    display: inline-block;
+    float: left;
+    width: 1096px;
+    border-left: 1px solid #ddd;
+    margin-left: -1px;
+    padding-bottom: 11px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+.footer_blogroll ul li{
+    float: left;
+    display: inline;
+    height: 14px;
+    line-height: 14px;
+    border-left: 1px solid #ddd;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+.footer_blogroll ul li:first-child{
+    border: none;
+}
+/*news over*/
+
+
+
+/*login*/
+.layout{
+    margin: 0 auto;
+    width: 950px;
+    zoom: 1;
+}
+.loginHeader{
+    height:90px;
+    overflow: hidden;
+    background: url("http://home.colipu.com/Content/images/i/regestLogbg.jpg") repeat
+}
+.loginHeader a img{
+    float: left;
+}
+.mainDiv{
+    height: 420px;
+    overflow: hidden;
+    margin: 68px 0 80px 0;
+}
+.mainDiv a{
+    float: left;
+    width: 450px;
+}
+.formDiv{
+    width: 380px;
+    height: auto;
+    float: right;
+    background: #FFFFFF;
+    margin-top: 30px;
+    border-top: 4px solid #D71635;
+    background: #FFFFFF url("http://home.colipu.com/Content/images/i/logbottomBG.jpg") no-repeat bottom;
+    margin-right: 50px;
+    padding-bottom: 30px;
+    display: block;
+}
+.formDiv input{
+	outline: none;
+}
+.formDiv h4{
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555555;
+    width: 300px;
+    float: left;
+    margin: 0 40px 0 40px;
+}
+.formDiv form>p{
+	/*width: 300px;*/
+    margin: 0 38px;
+	overflow:hidden
+}
+.p-txt{
+	width: 304px;
+}
+.formDiv form>p>a{
+    color:  #0aabbd;
+    margin-bottom: 10px;
+
+}
+.f-txt{
+    width: 290px;
+    height: 30px;
+    color: #666666;
+    line-height: 30px;
+    padding: 4px 5px;
+    margin-bottom: 10px;
+}
+.f-txts{
+    width: 100px;
+    float: left;
+}
+.captcha{
+    float: left;
+}
+.f-box{
+    float: left;
+    margin: 0 40px 0 40px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    line-height: 16px;
+    height: auto;
+}
+.f-box img{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+}
+.formDiv .login-btn{
+    margin-bottom: 50px;
+}
+.login-btn{
+    float: left;
+    margin: 0 40px 0 40px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    line-height: 16px;
+    height: auto;
+}
+.login{
+    float: left;
+    width: 139px;
+    height: 40px;
+    background: url("http://home.colipu.com/Content/images/Sprite_new_icon.png") no-repeat -165px -18px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+}
+.login-btn .join{
+    outline: none;
+    float: left;
+    width: 139px;
+    height: 40px;
+    background: url("http://home.colipu.com/Content/images/Sprite_new_icon.png") no-repeat -273px -78px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.f-txt-r span{
+    color: #0AABBD;
+}
+.f-txt-r{
+    float: left;
+    display: inline;
+    padding-top: 6px;
+    line-height: 16px;
+    width: 48px;
+    overflow: hidden;
+}
+
+
+
+/*join*/
+.join-layout{
+    height: 430px;
+    margin: 100px 0 80px 0;
+    border-top: 4px solid #D71635;
+    background: #FFFFFF;
+    min-width: 950px;
+    padding-top: 20px;
+}
+.join-layout a{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.join-layout .formDiv{
+	width: 500px;
+	float: left;
+	border-top:none;
+	margin-top: 0;
+	background: none;
+	height:410px;
+	padding-bottom: 0;
+}
+.join-layout .formDiv form>p{
+	margin: 0;
+	font-size: 0;
+}
+.join-layout .formDiv form>p .p{
+	width: 100%;
+	padding: 3px 3px;
+	height:18px;
+	line-height: 18px;
+	font-size: 12px;
+	text-align: left;
+	color: #CCCCCC;
+	margin-left: 145px;
+}
+.join-layout .formDiv form>p>span{
+	display: inline-block;
+	width: 145px;
+	height:35px;
+	line-height: 35px;
+	text-align: right;
+	font-size: 14px;
+}
+.join-layout .formDiv form>p input{
+	margin-bottom: 0;
+}
+.formDiv select{
+	width: 304px;
+	height: 42px;
+	padding: 4px 5px;
+}
+.f-box>span{
+	float: left;
+	width: 145px;
+	height:35px;
+	line-height: 35px;
+	text-align: right;
+	font-size: 14px;
+}
+.join-layout .f-box-p{
+	overflow: hidden;
+}
+.join-layout .f-box{
+	margin-left: 0;
+}
+.join-layout .f-txt-r  a{
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.join-layout .f-txt-r{
+	padding-top: 3px;
+}
+.f-check{
+	width: 500px;
+	height: 35px;
+}
+.f-check ul{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.f-check ul li{
+	margin-left: 10px;
+}
+.f-check ul li a{
+	margin:0;
+}
+.f-check ul li label{
+	position: relative;
+	top:-2px
+}
+.join-btn{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.join-btn .join-login{
+	width: 163px;
+    height: 42px;
+    line-height: 42px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+	background: url(http://home.colipu.com/Content/images/Sprite_new_icon.png)  no-repeat center;
+	background-position: 0 -18px;
+	border: none;
+	margin:0 0 0 96px;
+	float: none;
+	cursor: pointer;
+}
+.join-btn span{
+	color: #666;
+}
+.join-btn span a{
+	color: #0AABBD;
+	margin: 0;
+}
+.Popup{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	font-size: 16px;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: #FFF;
+	display:none ;
+}

@@ -1,0 +1,135 @@
+
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.stairs{
+				display:flex;
+				flex-direction: column;				
+				}
+			.stairs li{
+				width: 40px;
+				height: 40px;
+				font-size: 16px;
+				line-height: 20px;
+				text-align: center;
+				color: #999;
+				cursor: pointer;			
+			}
+			.stairs li:nth-child(1){
+				background: #3ff;
+			}
+			.stairs li:nth-child(2){
+				background: #f63;
+			}
+			.stairs li:nth-child(3){
+				background: #9f9;
+			}
+			.stairs li:nth-child(4){
+				background: #ff9;
+			}
+			.stairs li:nth-child(5){
+				background: #fcc;
+			}
+			.stairs li:nth-child(6){
+				background: #cff;
+			}
+			.stairs li:nth-child(7){
+				background: #ffc;
+			}
+			.stairs li:nth-child(8){
+				background: #6f6;
+			}
+			.stairs li:nth-child(9){
+				background: #3ff;
+			}
+			.stairs li:nth-child(10){
+				background: #9f9;
+			}
+		</style>
+	
+		<ul class="stairs">
+			<li>精选商品</li>
+			<li>纸品中心</li>
+			<li>耗材设备</li>
+			<li>桌面文具</li>
+			<li>书写用品</li>
+			<li>办公设备</li>
+			<li>办公日用</li>
+			<li>电脑数码</li>
+			<li>家具中心</li>
+			<li>返回顶部</li>						
+		</ul>
+		
+		<script type="text/javascript" src="libs/jquery.js" ></script>
+		<script type="text/javascript">
+			$(".stairs").children("li").click(function(){
+				var t = null
+				switch($(this).index()){
+					
+					case 0:
+						t = $(".fine").eq(0).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 1:
+						t = $(".box").eq(0).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 2:
+						t = $(".box").eq(1).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 3:
+						t = $(".box").eq(2).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 4:
+						t = $(".box").eq(3).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 5:
+						t = $(".box").eq(4).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 6:
+						t = $(".box").eq(5).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 7:
+						t = $(".box").eq(6).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 8:
+						t = $(".box").eq(7).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+					case 9:
+						t = $(".header").eq(0).offset().top;
+						$("html").animate({
+							scrollTop:t
+						});
+						break;
+				}
+			})
+		</script>
+

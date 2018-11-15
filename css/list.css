@@ -1,0 +1,103 @@
+.main {
+  width: 1200px;
+  margin: 30px auto;
+  overflow: hidden; }
+  .main .list {
+    width: 1200px;
+    overflow: hidden; }
+    .main .list ul li {
+      float: left;
+      width: 230px;
+      padding: 5px;
+      position: relative; }
+      .main .list ul li:hover {
+        padding: 0;
+        border: #e7e3e3 5px solid; }
+      .main .list ul li dl {
+        padding: 10px 14px;
+        border: 1px solid #fff;
+        background: white;
+        position: relative; }
+        .main .list ul li dl:hover {
+          border-color: #c0bfbf; }
+        .main .list ul li dl dt a img {
+          width: 200px;
+          height: 200px; }
+        .main .list ul li dl dd .list-price {
+          line-height: 17px;
+          margin-top: 7px;
+          height: 17px;
+          overflow: hidden;
+          color: #d71635; }
+          .main .list ul li dl dd .list-price span {
+            font-size: 14px;
+            float: left;
+            margin-right: 3px; }
+            .main .list ul li dl dd .list-price span i {
+              font-size: 18px;
+              font-weight: normal;
+              font-style: normal; }
+            .main .list ul li dl dd .list-price span b {
+              font-size: 18px;
+              font-weight: normal;
+              display: inline-block; }
+        .main .list ul li dl dd .list-tit {
+          line-height: 21px;
+          margin-top: 2px;
+          height: 42px;
+          overflow: hidden; }
+        .main .list ul li dl dd .car {
+          height: 29px;
+          margin-top: 5px; }
+          .main .list ul li dl dd .car span {
+            float: left;
+            height: 29px;
+            width: 45px; }
+            .main .list ul li dl dd .car span input {
+              float: left;
+              width: 29px;
+              height: 25px;
+              line-height: 25px;
+              border: 1px solid #ddd;
+              text-align: center;
+              outline: none; }
+            .main .list ul li dl dd .car span em {
+              float: right;
+              position: relative;
+              width: 11px;
+              height: 27px;
+              outline: none;
+              border: 1px solid #ddd; }
+              .main .list ul li dl dd .car span em i.add {
+                border-bottom: 1px solid #ddd;
+                top: 0;
+                position: absolute;
+                left: 0;
+                cursor: pointer;
+                display: inline-block;
+                width: 11px;
+                height: 13px;
+                background: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-addsub.png) no-repeat 0 0; }
+              .main .list ul li dl dd .car span em i.sub {
+                bottom: 0;
+                position: absolute;
+                left: 0;
+                cursor: pointer;
+                display: inline-block;
+                width: 11px;
+                height: 13px;
+                background: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-addsub.png) no-repeat 0 -14px; }
+          .main .list ul li dl dd .car a {
+            float: left;
+            width: 98px;
+            height: 27px;
+            line-height: 27px;
+            margin-left: 15px;
+            border: 1px solid #ddd;
+            color: #d71635; }
+            .main .list ul li dl dd .car a i {
+              float: left;
+              margin: 8px 6px 0 7px;
+              width: 14px;
+              height: 12px;
+              background-image: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-buy.png); }

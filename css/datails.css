@@ -1,0 +1,150 @@
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow: hidden; }
+  .main .Imgbox {
+    box-sizing: border-box;
+    width: 350px;
+    height: 479px;
+    overflow: hidden;
+    float: left; }
+    .main .Imgbox .imgB {
+      box-sizing: border-box;
+      width: 350px;
+      height: 350px;
+      border: 1px solid #DDDDDD;
+      overflow: hidden; }
+      .main .Imgbox .imgB img {
+        width: 350px;
+        height: 350px; }
+  .main .content {
+    margin-left: 390px;
+    /*float: right;*/
+    box-sizing: border-box; }
+    .main .content h1 {
+      height: 28px;
+      line-height: 28px;
+      font-size: 20px;
+      font-weight: normal;
+      color: #333; }
+    .main .content .price {
+      height: 26px;
+      overflow: hidden;
+      padding: 10px 0;
+      background: #eee;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-bottom: 10px; }
+      .main .content .price p {
+        margin-left: 30px;
+        height: 26px;
+        line-height: 32px;
+        margin-top: 0; }
+        .main .content .price p span {
+          font-size: 16px;
+          color: #d71635;
+          height: 26px;
+          line-height: 26px;
+          display: inline-block;
+          margin-right: 10px;
+          margin-left: 10px; }
+          .main .content .price p span em {
+            font-size: 25px;
+            font-style: normal;
+            line-height: 26px;
+            font-weight: bold; }
+    .main .content p {
+      overflow: hidden;
+      margin-top: 15px;
+      height: 23px;
+      margin-left: 40px; }
+      .main .content p span {
+        color: #d71635;
+        margin: 0 5px; }
+    .main .content .addCar {
+      position: relative;
+      overflow: hidden;
+      margin-top: 15px; }
+      .main .content .addCar span {
+        margin-left: 15px;
+        display: inline-block;
+        height: 35px;
+        width: 54px; }
+        .main .content .addCar span input {
+          float: left;
+          width: 35px;
+          height: 33px;
+          line-height: 33px;
+          border: 1px solid #ddd;
+          text-align: center;
+          outline: none;
+          padding: 0; }
+        .main .content .addCar span em {
+          float: right;
+          position: relative;
+          width: 14px;
+          height: 33px;
+          outline: none;
+          border: 1px solid #ddd; }
+          .main .content .addCar span em i {
+            position: absolute;
+            left: 0;
+            cursor: pointer; }
+          .main .content .addCar span em i.add {
+            border-bottom: 1px solid #ddd;
+            top: 0;
+            display: inline-block;
+            width: 14px;
+            height: 16px;
+            background: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-addsub.png) no-repeat 1px 1px; }
+          .main .content .addCar span em i.sub {
+            bottom: 0;
+            display: inline-block;
+            width: 14px;
+            height: 16px;
+            background: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-addsub.png) no-repeat 1px -13px; }
+      .main .content .addCar a {
+        position: relative;
+        top: -12px;
+        display: inline-block;
+        padding: 0 10px 0 5px;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 15px;
+        font-size: 14px;
+        color: #666;
+        text-decoration: none; }
+        .main .content .addCar a i {
+          float: left;
+          margin: 7px 5px 0 0;
+          height: 20px;
+          width: 20px;
+          background: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-collection.png) no-repeat; }
+      .main .content .addCar a.btn {
+        color: white;
+        background: #d71635;
+        border-radius: 3px; }
+        .main .content .addCar a.btn i {
+          width: 20px;
+          height: 20px;
+          background-image: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-buy2.png);
+          display: inline-block; }
+    .main .content .notice {
+      border-top: 1px solid #ddd;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      overflow: hidden;
+      margin-top: 20px; }
+      .main .content .notice span {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        color: #999;
+        margin-right: 30px; }
+        .main .content .notice span i {
+          width: 20px;
+          height: 20px;
+          background-image: url(http://www.colipu.com/themes/2016_B2C/Content/images/icon/icon-notice.png);
+          display: inline-block; }
